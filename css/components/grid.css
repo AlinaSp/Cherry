@@ -1,0 +1,20 @@
+.grid {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.grid > .grid-item {
+	padding: 0 20px;
+}
+
+.grid-small {
+	margin: 0 -20px;
+}
+
+.footer .grid {
+	margin: 0 -30px;
+}
+
+.footer .grid-item {
+	padding: 0 30px;
+}

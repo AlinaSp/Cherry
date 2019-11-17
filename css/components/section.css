@@ -1,0 +1,39 @@
+.section-gray {
+	background: #494949;
+	color: #fff;
+}
+
+.section-green {
+	background: #00AE9A;
+	color: #fff;
+}
+
+
+.section-title {
+	color: #a5adb8;
+	padding-bottom: 15px;
+	margin: 0;
+}
+
+.section{
+padding-top: 30px;
+}
+
+.section:last-child {
+padding-bottom: 50px;
+}
+
+.section-text {
+	font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+	color: #5c646e;
+}
+
+.section-text2 {
+	width: 530px;
+}
+
+aside {
+	padding-top: 30px;
+}

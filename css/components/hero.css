@@ -1,0 +1,22 @@
+.hero {
+  background: #282d33;
+  color: #fff;
+  padding: 40px 0 40px 28px;
+}
+
+
+.hero-title {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.hero-subtitle {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  color: #c9c7c7;
+}
+ .hero-text {
+ 	max-width: 484px;
+ }

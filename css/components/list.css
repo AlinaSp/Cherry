@@ -1,0 +1,52 @@
+.marked-list, .unmarked-list, .count-list {
+	font-size: 14px;
+}
+
+.marked-list {
+	list-style-type: disc;
+	color: #5c646e;
+}
+
+.unmarked-list {
+	list-style: none;
+	color: #5c646e;
+}
+
+.count-list {
+	color: #5c646e;
+}
+
+.list-title {
+	margin-left: -20px;
+	color: #5c646e;
+}
+
+li > ul {
+	padding-left: 25px;
+}
+
+.footer .card-list {
+	font-size: 12px;
+	list-style: none;
+}
+
+.footer .card-list.red-dots {
+	padding-left: 20px;
+}
+
+.footer .card-list > li {
+	padding: 4px 0;
+	position: relative;
+}
+
+.card-list.red-dots > li:before {
+	content: "";
+	display: block;
+	width: 5px;
+	height: 5px;
+	background-color: #ff1744;
+	border-radius: 50%;
+	position: absolute;
+	top: 9px;
+	left: -15px;
+}
